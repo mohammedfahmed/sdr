@@ -1,0 +1,9 @@
+blocks_file_sink
+make(size_t itemsize, char const * filename, bool append=False) -> file_sink_sptr
+        Write stream to file.
+        Constructor Specific Documentation:
+        Make a file sink.
+        Args:
+            itemsize : size of the input data items.
+            filename : name of the file to open and write output to.
+            append : if true, data is appended to the file instead of overwriting the initial content.
